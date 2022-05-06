@@ -3,13 +3,19 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 50px;
+}
+
+.App-headerDiv {
+  display: flex;
+  width: 100%;
 }
 
 .App-header {
   background-color: #222;
   height: 50px;
+  width: 100%;
   padding: 20px;
   color: white;
   text-align: left;
@@ -31,12 +37,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 .search {
   padding: 5px 0 20px 0;
+  margin-top: 13px;
 }
 
 tr {
