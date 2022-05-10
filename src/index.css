@@ -24,3 +24,8 @@ body {
 .search-row input {
   margin-right: 10px;
 }
+
+.cardsWrapper {
+  display: flex;
+  align-items: center;
+}
