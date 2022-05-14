@@ -1,13 +1,14 @@
 import React from "react";
-
-const Restaurant = () => {
-  const pizzas = 0;
+import Order from "../components/Order";
+const Restaurant = props => {
   return (
     <div>
       <h3>Restaurant Orders</h3>
       <ul>
         <li>
-          Pizzas: {pizzas} <button className="btn btn-primary">Add</button>
+          <Order orderType="pizza" />
+          <Order orderType="Salad" />
+          <Order orderType="Chocolate cake" />
         </li>
       </ul>
     </div>
