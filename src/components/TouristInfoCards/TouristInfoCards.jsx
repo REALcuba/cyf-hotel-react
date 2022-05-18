@@ -20,6 +20,8 @@ const TouristInfoCards = () => {
             Go somewhere
           </a>
         </div>
+      </div>
+      <div className="card">
         <img
           src="https://th.bing.com/th/id/OIP.d2SaqaWVBLX8QjwcgXzBRAHaEK?pid=ImgDet&rs=1"
           className="card-img-top"
@@ -37,6 +39,8 @@ const TouristInfoCards = () => {
             Go somewhere
           </a>
         </div>
+      </div>
+      <div className="card">
         <img
           src="https://digitalhealth.london/wp-content/uploads/2015/12/DHL-London-01.jpg"
           className="card-img-top"

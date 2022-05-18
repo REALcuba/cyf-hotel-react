@@ -51,8 +51,12 @@
 .search-row {
   align-items: center;
 }
+.th {
+  padding: 14px;
+}
 
 tr {
+  padding: 14px;
   color: #5b5757;
 }
 
@@ -66,5 +70,12 @@ tr {
 }
 
 .card {
-  width: 18rem;
+  width: 30rem;
+}
+.selectedRow {
+  background-color: cornflowerblue;
+}
+.dataCentered {
+  padding: 14px;
+  align-content: center;
 }
