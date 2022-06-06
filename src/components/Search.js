@@ -4,7 +4,7 @@ import SearchButton from "./SearchButton/SearchButton";
 const Search = ({ search }) => {
   const [searchInput, setSearchInput] = useState("");
   const handleSearchInput = e => {
-    setSearchInput(e.target.value);
+    setSearchInput(e.target.value.toLowerCase());
   };
   const handleSubmit = e => {
     e.preventDefault();

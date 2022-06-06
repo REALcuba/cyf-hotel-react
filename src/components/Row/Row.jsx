@@ -21,6 +21,9 @@ const Row = props => {
       <td className="dataCentered">{props.data.checkInDate}</td>
       <td className="dataCentered">{props.data.checkOutDate}</td>
       <td className="dataCentered">{totalNigths}</td>
+      <td>
+        <button id={props.data.id}>Search Profile</button>
+      </td>
     </tr>
   );
 };
